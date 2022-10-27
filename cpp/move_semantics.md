@@ -24,17 +24,17 @@
     | No identity             | prvalue                     | not used             |
 ```
 
-1. **lvalue**
+**lvalue**
 
 - An lvalue refers to a memory location and allows us to take the address of that memory location via the & operator.
 - Variable names, including const variables, array elements, function calls that return an lvalue reference, unions, class members, and string literal
 
-2. **rvalue**
+**rvalue**
 
 - An rvalue is an expression that is not an lvalue and has no address.
 - Literals, function calls that return a non-referenced type, and temporary objects
 
-3. **xvalue**
+**xvalue**
 
 - An xvalue is an expring value and unnnamed objects that is soon to be destroyed.
 - It may be either treated as glvalues or as rvalues depending on the context.
